@@ -25,3 +25,6 @@ build/
 
 # others
 .DS_Store
+
+# xcode
+*.xcodeproj
