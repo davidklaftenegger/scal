@@ -335,26 +335,26 @@
         'glue.gyp:ll-dyn-dds-treiber',
       ],
     },
-    {
-      'target_name': 'prodcon-lcrq',
-      'type': 'executable',
-      'libraries': [ '<@(default_libraries)' ],
-      'dependencies': [
-        'libscal',
-        'prodcon-base',
-        'glue.gyp:lcrq',
-      ],
-    },
-    {
-      'target_name': 'seqalt-lcrq',
-      'type': 'executable',
-      'libraries': [ '<@(default_libraries)' ],
-      'dependencies': [
-        'libscal',
-        'seqalt-base',
-        'glue.gyp:lcrq',
-      ],
-    },
+    # {
+    #   'target_name': 'prodcon-lcrq',
+    #   'type': 'executable',
+    #   'libraries': [ '<@(default_libraries)' ],
+    #   'dependencies': [
+    #     'libscal',
+    #     'prodcon-base',
+    #     'glue.gyp:lcrq',
+    #   ],
+    # },
+    # {
+    #   'target_name': 'seqalt-lcrq',
+    #   'type': 'executable',
+    #   'libraries': [ '<@(default_libraries)' ],
+    #   'dependencies': [
+    #     'libscal',
+    #     'seqalt-base',
+    #     'glue.gyp:lcrq',
+    #   ],
+    # },
     {
       'target_name': 'prodcon-hc-ts-cas-stack',
       'type': 'executable',

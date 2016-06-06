@@ -52,6 +52,7 @@
           'cflags_cc': [ '<@(default_cflags_cc)' ],
           'ldflags': [ '<@(default_ldflags)' ],
           'xcode_settings': {
+            'CLANG_CXX_LANGUAGE_STANDARD': "c++11",
             'OTHER_CFLAGS': [ '<@(default_cflags)' , '-g', '-O3'],
             'OTHER_LDFLAGS': [ '<@(default_ldflags)' ],
           },

@@ -181,17 +181,17 @@
         'src/benchmark/std_glue/glue_ll_dyn_dds_treiber.cc'
       ],
     },
-    {
-      'target_name': 'lcrq',
-      'type': 'static_library',
-      'cflags': [ ],
-      'sources': [
-        'src/benchmark/std_glue/glue_lcrq.cc'
-      ],
-      'dependencies': [
-        'upstream.gyp:lcrq-base',
-      ],
-    },
+    # {
+    #   'target_name': 'lcrq',
+    #   'type': 'static_library',
+    #   'cflags': [ ],
+    #   'sources': [
+    #     'src/benchmark/std_glue/glue_lcrq.cc'
+    #   ],
+    #   'dependencies': [
+    #     'upstream.gyp:lcrq-base',
+    #   ],
+    # },
     {
       'target_name': 'lb-stack',
       'type': 'static_library',
