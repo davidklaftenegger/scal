@@ -48,7 +48,6 @@
           ]
         },
         'Release': {
-          'inherit_from': ['Base'],
           'cflags': [ '<@(default_cflags)', '-O3' ],
           'cflags_cc': [ '<@(default_cflags_cc)' ],
           'ldflags': [ '<@(default_ldflags)' ],
