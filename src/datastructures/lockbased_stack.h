@@ -103,6 +103,9 @@ bool LockBasedStack<T>::pop(T *item) {
 
   rc = pthread_mutex_unlock(global_lock_);
   check_error("pthread_mutex_unlock", rc);
+
+  delete top_old.value();
+
   return true;
 }
 
